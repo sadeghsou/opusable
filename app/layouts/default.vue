@@ -1,11 +1,9 @@
 <template>
-  <div class="min-h-screen bg-background text-foreground">
-    <Navigation />
+  <div class="min-h-screen bg-main-bg text-main-text">
+    <!-- <Navigation /> -->
     <main>
       <slot />
     </main>
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
-
-<script setup lang="ts"></script>

@@ -3,6 +3,12 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxt/image", "@nuxt/icon", "@nuxtjs/tailwindcss"],
+  tailwindcss: {
+    cssPath: ["~/assets/css/tailwind.css", { injectPosition: "first" }],
+    config: {},
+    viewer: true,
+    exposeConfig: false,
+  },
   // Global CSS handled in app.vue to avoid runtime alias resolution issues
   css: [],
   app: {
