@@ -1,13 +1,5 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"],
-      "~/*": ["./*"]
-    }
-  },
-  "include": ["app/**/*", "components/**/*", "pages/**/*", "tailwind.config.ts", "app/components/**/*"],
   "files": [],
   "references": [
     {
