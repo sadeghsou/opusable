@@ -1,0 +1,8 @@
+.container {
+  @apply sm:max-w-screen-sm;
+  @apply md:max-w-screen-md;
+  @apply lg:max-w-screen-lg;
+  @apply xl:max-w-screen-xl;
+  @apply 2xl:max-w-screen-2xl;
+  @apply mx-auto p-4;
+}

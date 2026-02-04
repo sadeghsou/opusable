@@ -1,3 +1,3 @@
 <template>
-  <h1>Services</h1>
+  <h1>Process</h1>
 </template>
