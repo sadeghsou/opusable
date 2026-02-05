@@ -2,7 +2,22 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
-  modules: ["@nuxt/image", "@nuxtjs/tailwindcss", "@nuxtjs/device", "@nuxt/icon", "@nuxtjs/i18n"],
+  modules: [
+    "@nuxt/image",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/device",
+    "@nuxt/icon",
+    "@nuxtjs/i18n",
+    "@nuxtjs/google-fonts",
+    [
+      "@nuxtjs/google-fonts",
+      {
+        families: {
+          Roboto: true,
+        },
+      },
+    ],
+  ],
   nitro: {
     routeRules: {
       "/sw.js": { redirect: "/" },

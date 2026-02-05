@@ -3,5 +3,40 @@
   "portfolio": "Portfolio",
   "process": "Process",
   "blog": "Blog",
-  "dashboard": "Dashboard"
+  "dashboard": "Dashboard",
+  "card": {
+    "learnMore": "Learn more"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Build Something Opusable",
+      "description": "We craft exceptional digital experiences that drive results. From concept to launch, we're your partner in building remarkable web solutions."
+    },
+    "services": {
+      "title": "Our services",
+      "description": "Comprehensive solutions tailored to your needs"
+    },
+    "points": {
+      "title": "Why Choose Opusable?",
+      "description": "We combine creativity, technical expertise, and strategic thinking to deliver solutions that exceed expectations.",
+      "list": {
+        "item1": "Custom tailored solutions",
+        "item2": "Responsive & mobile-first",
+        "item3": "SEO optimized",
+        "item4": "Fast performance",
+        "item5": "Ongoing support",
+        "item6": "Scalable architecture"
+      },
+      "statistics": {
+        "projectCompleted": "Project Completed",
+        "clientSatisfaction": "CLient Satisfaction",
+        "yearsExperience": "Years Experience",
+        "supportAvailable": "Support Available"
+      }
+    },
+    "comments": {
+      "title": "What Our Clients Say",
+      "description": "Don't just take our word for it"
+    }
+  }
 }
