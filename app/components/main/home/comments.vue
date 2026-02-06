@@ -22,7 +22,7 @@ const comments = ref([
   <section>
     <h2 class="text-3xl font-bold">{{ $t("homePage.comments.title") }}</h2>
     <p class="text-main-muted text-xl">{{ $t("homePage.comments.description") }}</p>
-    <div class="grid grid-cols-3 gap-8 mt-8">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
       <div
         v-for="(comment, index) in comments"
         :key="`HomePageComments${index}`"

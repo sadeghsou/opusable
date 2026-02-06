@@ -1,16 +1,42 @@
 {
+  "opusable": "Opusable",
   "services": "Services",
   "portfolio": "Portfolio",
   "process": "Process",
   "blog": "Blog",
   "dashboard": "Dashboard",
+  "closed": "Closed",
+  "company": "Company",
+  "footer": {
+    "description": "Crafting exceptional digital experiences that drive results.",
+    "copyright": "© 2026 Opusable. All rights reserved.",
+    "webDesign": "Web Design",
+    "webDevelopment": "Web Development",
+    "techAdvice": "Tech Advice",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "process": "Process"
+  },
+  "connect": "Connect",
+  "contactUs": "Contact Us",
+  "weekDays": {
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday"
+  },
   "card": {
     "learnMore": "Learn more"
   },
   "homePage": {
     "hero": {
       "title": "Build Something Opusable",
-      "description": "We craft exceptional digital experiences that drive results. From concept to launch, we're your partner in building remarkable web solutions."
+      "description": "We craft exceptional digital experiences that drive results. From concept to launch, we're your partner in building remarkable web solutions.",
+      "cta": "Start Your Project",
+      "link": "View Our Work"
     },
     "services": {
       "title": "Our services",
@@ -37,6 +63,134 @@
     "comments": {
       "title": "What Our Clients Say",
       "description": "Don't just take our word for it"
+    }
+  },
+  "servicesPage": {
+    "title": "Our Services",
+    "description": "Comprehensive web solutions designed to elevate your digital presence and drive business growth",
+    "subtitle": "Let's Build Something Amazing Together",
+    "caption": "Ready to transform your digital presence? Contact us today to discuss your project.",
+    "cta": "Get Started",
+    "webDesign": {
+      "title": "Web Design",
+      "description": "Creating stunning, user-centric designs that engage and convert.",
+      "items": {
+        "uiuxDesign": "UI/UX Design",
+        "brandIdentity": "Brand Identity",
+        "responsiveDesign": "Responsive Design",
+        "wireframingAndPrototyping": "Wireframing & Prototyping"
+      }
+    },
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Building robust, scalable web applications with modern technologies.",
+      "items": {
+        "frontendDevelopment": "Frontend Development",
+        "backendDevelopment": "Backend Development",
+        "apiIntegration": "API Integration",
+        "ecommerceSolutions": "E-commerce Solutions"
+      }
+    },
+    "mobileFirstDesign": {
+      "title": "Mobile First Design",
+      "description": "Ensuring your website looks perfect on every device.",
+      "items": {
+        "responsiveLayouts": "Responsive Layouts",
+        "progressiveWebApps": "Progressive Web Apps",
+        "mobileOptimization": "Mobile Optimization",
+        "crossBrowserTesting": "Cross-browser Testing"
+      }
+    },
+    "techAdvice": {
+      "title": "Tech Advice",
+      "description": "Strategic technology consulting to guide your digital transformation.",
+      "items": {
+        "technologyStackSelection": "Technology Stack Selection",
+        "architecturePlanning": "Architecture Planning",
+        "performanceOptimization": "Performance Optimization",
+        "securityConsulting": "Security Consulting"
+      }
+    },
+    "databaseSolutions": {
+      "title": "Database Solutions",
+      "description": "Efficient data management and storage solutions for your applications.",
+      "items": {
+        "databaseDesign": "Database Design",
+        "dataMigration": "Data Migration",
+        "performanceTuning": "Performance Tuning",
+        "cloudDatabaseSetup": "Cloud Database Setup"
+      }
+    },
+    "securityAndMaintenance": {
+      "title": "Security & Maintenance",
+      "description": "Keeping your web presence secure and up-to-date.",
+      "items": {
+        "securityAudits": "Security Audits",
+        "regularUpdates": "Regular Updates",
+        "backupSolutions": "Backup Solutions",
+        "performanceMonitoring": "Performance Monitoring"
+      }
+    },
+    "performanceOptimization": {
+      "title": "Performance Optimization",
+      "description": "Making your website blazing fast for better user experience.",
+      "items": {
+        "speedOptimization": "Speed Optimization",
+        "codeMinification": "Code Minification",
+        "cdnIntegration": "CDN Integration",
+        "imageOptimization": "Image Optimization"
+      }
+    },
+    "seoAndMarketing": {
+      "title": "SEO & Marketing",
+      "description": "Improving your online visibility and driving organic traffic.",
+      "items": {
+        "seoOptimization": "SEO Optimization",
+        "analyticsSetup": "Analytics Setup",
+        "contentStrategy": "Content Strategy",
+        "conversionOptimization": "Conversion Optimization"
+      }
+    }
+  },
+  "contactUsPage": {
+    "title": "Get In Touch",
+    "description": "Have a project in mind? Let's discuss how we can help bring your vision to life.",
+    "information": {
+      "title": "Contact Information",
+      "description": "Reach out to us through any of these channels",
+      "officeHours": "Office hours"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "description": "Fill out the form below and we'll get back to you within 24 hours",
+      "fullName": {
+        "label": "Full Name",
+        "placeHolder": "John Doe"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "company": {
+        "label": "Company",
+        "placeHolder": "Your Company"
+      },
+      "serviceInterestedIn": {
+        "label": "Service Interested In",
+        "placeHolder": "Selet a service"
+      },
+      "message": {
+        "label": "Message",
+        "placeHolder": "Tell us about your project..."
+      },
+      "services": {
+        "selectAService": "Select a service",
+        "webDesign": "Web Design",
+        "webDevelopment": "Web Development",
+        "techAdvice": "Tech Advice",
+        "mobileDesign": "Mobile Design",
+        "other": "Other"
+      },
+      "submit": "Send Message"
     }
   }
 }
