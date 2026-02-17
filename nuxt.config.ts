@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
+  app: {
+    pageTransition: { name: "page" },
+  },
   modules: [
     "@nuxt/image",
     "@nuxtjs/tailwindcss",

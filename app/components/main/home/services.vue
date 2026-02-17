@@ -9,13 +9,13 @@ const services = ref([
   {
     title: "Web Development",
     description: "Robust, scalable solutions built with cutting-edge technologies for optimal performance.",
-    url: "#",
+    url: "/services",
     icon: "solar:code-bold-duotone",
   },
   {
     title: "Tech Advice",
     description: "Strategic guidance to help you make informed decisions about your technology stack.",
-    url: "#",
+    url: "/services",
     icon: "solar:lightbulb-line-duotone",
   },
 ]);

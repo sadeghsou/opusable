@@ -6,7 +6,7 @@ const { isMobile } = useDevice();
 const headerLinks = ref<HeaderLink[]>(HEADER_LINKS);
 </script>
 <template>
-  <header class="py-2 border-b-2 border-b-main-border">
+  <header class="py-2 border-b-2 border-b-main-border sticky top-0 z-10 lg:relative bg-main-bg">
     <div class="container flex items-center justify-between">
       <MainHeaderNavigationMobile
         v-if="isMobile"

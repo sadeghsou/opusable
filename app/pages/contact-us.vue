@@ -159,10 +159,10 @@ const contactUsForm = ref<ContactUsForm>({
         </label>
         <button
           class="bg-main-accent text-main-surface flex items-center justify-center gap-2 lg:col-span-2 p-2 rounded">
-          <Icon
-            name="solar:map-arrow-left-bold-duotone"
-            class="text-lg" />
           <span>{{ $t("contactUsPage.form.submit") }}</span>
+          <Icon
+            name="solar:map-arrow-right-bold-duotone"
+            class="text-lg" />
         </button>
       </form>
     </section>
