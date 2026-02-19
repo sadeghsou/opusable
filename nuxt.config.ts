@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   app: {
     pageTransition: { name: "page" },
   },
@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxtjs/i18n",
     "@nuxtjs/google-fonts",
+    "@nuxthub/core",
     [
       "@nuxtjs/google-fonts",
       {
@@ -30,5 +31,8 @@ export default defineNuxtConfig({
   i18n: {
     defaultLocale: "en",
     locales: [{ code: "en", name: "English", file: "en.json" }],
+  },
+  hub: {
+    db: "postgresql",
   },
 });
