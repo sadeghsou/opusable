@@ -7,6 +7,19 @@
   "dashboard": "Dashboard",
   "closed": "Closed",
   "company": "Company",
+  "webDesign": "Web Design",
+  "webDevelopment": "Web Development",
+  "webDesignAndDevelopment": "Web Design & Development",
+  "mobileAndWeb": "Mobile & Web",
+  "mobileFirstDesign": "Mobile First Design",
+  "uiUxDesign": "UI/UX Design",
+  "techAdvice": "Tech Advice",
+  "databaseSolutions": "Database Solutions",
+  "securityAndMaintenance": "Security & Maintenance",
+  "performanceOptimization": "Performance Optimization",
+  "seoAndMarketing": "Seo & Marketing",
+  "week": "Week",
+  "step": "Step",
   "footer": {
     "description": "Crafting exceptional digital experiences that drive results.",
     "copyright": "© 2026 Opusable. All rights reserved.",
@@ -151,6 +164,39 @@
         "conversionOptimization": "Conversion Optimization"
       }
     }
+  },
+  "portfolioPage": {
+    "title": "Our Portfolio",
+    "description": "Explore our latest projects and see how we've helped businesses achieve their digital goals",
+    "subtitle": "Let's Create Your Success Story",
+    "caption": "Ready to join our portfolio of successful projects?",
+    "cta": "Start Your Project",
+    "counts": {
+      "projectsCompleted": "Projects Completed",
+      "happyClients": "Happy Clients",
+      "industriesServed": "Industries Served",
+      "satisfactionRate": "Satisfaction Rate"
+    }
+  },
+  "processPage": {
+    "title": "Our Process",
+    "description": "A proven methodology that ensures your project is delivered on time, on budget, and exceeds expectations",
+    "subtitle": "Ready to Get Started?",
+    "caption": "Let's begin your journey to a remarkable web presence",
+    "cta": "Start Your Project",
+    "timeline": {
+      "title": "Typical Timeline",
+      "description": "Every project is unique, but here's a general timeline",
+      "contactAndBrief": "Contact & Brief",
+      "designConcepts": "Design Concepts",
+      "development": "Development",
+      "testingAndQA": "Testing & QA",
+      "goLive": "Go Live"
+    }
+  },
+  "blogPage": {
+    "title": "Our Blog",
+    "description": "Insights, tutorials, and tips from our team of experts"
   },
   "contactUsPage": {
     "title": "Get In Touch",
