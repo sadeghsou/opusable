@@ -89,7 +89,7 @@ const portfolioList = ref<PortfolioItem[]>([
       v-for="(item, index) in portfolioList"
       :key="`MainPortfolioListItem-${index}`"
       :to="item.url"
-      class="rounded-lg ring-1 ring-main-border bg-main-surface flex flex-col">
+      class="rounded-lg ring-1 ring-main-border bg-main-surface flex flex-col overflow-hidden">
       <NuxtImg
         :alt="item.title"
         :src="item.imageUrl"
