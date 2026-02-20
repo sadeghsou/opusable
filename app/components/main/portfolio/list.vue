@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const portfolioList = ref<PortfolioItem[]>([
   {
-    imageUrl: "/a.png",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     url: "#",
     categoryLocale: "webDevelopment",
     title: "E-Commerce Platform",
@@ -15,7 +15,7 @@ const portfolioList = ref<PortfolioItem[]>([
     ],
   },
   {
-    imageUrl: "/a.png",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     url: "#",
     categoryLocale: "mobileAndWeb",
     title: "Restaurant Chain App",
@@ -28,7 +28,7 @@ const portfolioList = ref<PortfolioItem[]>([
     ],
   },
   {
-    imageUrl: "/a.png",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     url: "#",
     categoryLocale: "webDesignAndDevelopment",
     title: "Healthcare Portal",
@@ -42,7 +42,7 @@ const portfolioList = ref<PortfolioItem[]>([
     ],
   },
   {
-    imageUrl: "/a.png",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     url: "#",
     categoryLocale: "uiUxDesign",
     title: "SaaS Dashboard",
@@ -55,7 +55,7 @@ const portfolioList = ref<PortfolioItem[]>([
     ],
   },
   {
-    imageUrl: "/a.png",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     url: "#",
     categoryLocale: "webDevelopment",
     title: "Educational Platform",
@@ -69,7 +69,7 @@ const portfolioList = ref<PortfolioItem[]>([
     ],
   },
   {
-    imageUrl: "/a.png",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     url: "#",
     categoryLocale: "webDevelopment",
     title: "Real Estate Website",
