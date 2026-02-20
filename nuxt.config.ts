@@ -35,4 +35,11 @@ export default defineNuxtConfig({
   hub: {
     db: "postgresql",
   },
+  ssr: false,
+  routeRules: {
+    "/**": {
+      prerender: true,
+      ssr: false,
+    },
+  },
 });
